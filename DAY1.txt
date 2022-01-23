@@ -1,0 +1,64 @@
+1.
+Dynamic typing              vs.               Static typing
+1.It checks during runtime             -- It checks during compile time
+
+2.e.g: javascript,python language      -- e.g: c,c++,java langauage
+
+3.It compile even if they              --  It will fail to compile until the errors have been fixed.
+contain errors that will 
+prevent the script from 
+running properly .It shows 
+error at last
+
+4.// javascript example         -- // c example
+ num = 5                              int num;
+ console.log(num)                     num = 5;    
+                                   
+5.It expects its variables  --  determines its variables' data types based on their values, 
+they can be assigned values      so this line is not required.
+to be declared before.
+
+
+2.***********Programming********           Vs  *************Scripting ************************
+1.A programming language is a    -- A scripting language is a kind of programming language 
+type of computer language           that is used to automate the execution of operations in a runtime environment.
+that consists of a set of 
+instructions for communicating 
+with computers. 
+
+
+2.designed to make full-fledged   -- assist programming languages and make coding easier and faster. They are typically
+software development easier          used for open projects and web development.
+
+
+3. self-executable                -- requires a host
+
+4.All programming languages       -- All scripting languages are programming languages
+are not scripting languages
+
+5.Examples include C, C++,        -- Examples include Perl, PHP, JavaScript, etc.
+Java, Python, etc.
+
+
+3.Difference between HTTP1.1 vs HTTP2
+
+Speed -->  HTTP2 is much faster than HTTP2 
+[HTTP1 loads a single request for every TCP connection, while HTTP2 avoids network delay by using multiplexing.]
+
+Security --> HTTP2 is more securable than HTTP1.1(customer faced big security risk) as it uses binary protocol instead of using plaintext.
+
+
+4.Write a blog about objects and its internal representation in Javascript
+  *Objects in javascript is somewhat different to other language objects
+  *Objects is variables e.g let person = "John Doe";
+  *A JavaScript object is a collection of named values having state and behavior (properties and method).e.g:car
+  *All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
+
+
+
+
+
+
+
+
+          
