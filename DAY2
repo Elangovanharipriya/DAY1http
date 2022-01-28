@@ -1,1 +1,65 @@
+1.List 5 difference between Browser JS(console) v Nodejs
+ANS:
+JavaScript                               Nodejs
+
+1.It is a programming language         It is a javascript runtime enviroment
+
+2.It can only be run in the browsers   We can run js outside the browser with the help of nodejs
+
+3.Used in client side                  Used in Server side
+
+4.Real-time example:chrome             Real-time example:Netflix
+                                      
+5.It is capable enough to add          Does not have capability to add HTML tags.
+HTML and play with the DOM
+
+
+2.How does the browser autually render a website'
+ANS:
+1.parsing --reading HTML content and constructing a DOM tree from it. 
+2.dom tree --
+3.performance 
+   faster performance
+   step by step procedure
+4.the browser reads the html code converts to js objects called Dom node.
+5.After creating nodes,it creates tree like structure for these node objects
+
+
+
+4.Execute the below code and write your description in txt file
+ANS:
+typeeof(1)
+'number'
+typeof(1.1)
+'number'
+-->Number includes from positive ,negative,float represented within ().
+
+typeof('1.1')
+'string'
+-->String is represented with doublequotes("") , singlequotes('')
+typeof(true)
+'boolean'
+-->Boolean is represented when true or false comes without any quotes
+
+typeof(null)
+'object'
+-->null is "nothing". It is supposed to be something that doesn't exist.
+
+typeof([])
+'object'
+ typeof({})
+'object'    
+--> An array can be considered to be an object with the following properties/keys: Length - This can be 0 or above (non-negative).
+-->E.g :typeof([1,-1,-2,3.3])
+'object'
+
+typeof(undefined)
+'undefined' 
+--> 'A variable(in method or statement) that doesn't have assigned value.(e.g):typeof(a)
+'undefined,typeof(hello) 'undefined'
+
+typeof(NaN)
+'number     
+--> numeric data type -->can't be represented using actual numbers.
+
 
